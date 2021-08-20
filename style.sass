@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Volkhov:wght@700&display=swap')
+body
+    background-image: url("world_map.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    
+    
+
+h1
+    text-align: center
+    font-size: 80px
+    font-family: 'Volkhov', serif
+    color: #88698b
+    -webkit-text-stroke: 1px black
+
+#inputButtons
+    text-align: center
+
+button#singleCountry
+    padding: 15px 25px
+    font-size: 24px
+    text-align: center
+    cursor: pointer
+    outline: none
+    color: black
+    background-color: rgba(192, 165, 191, 0.795)
+    border: none
+    box-shadow: 0 9px rgba(133, 113, 132, 0.795)
+
+button#singleCountry:hover
+    background-color: rgba(165, 116, 163, 0.795)
+
+button#singleCountry:active
+    background-color: rgba(165, 92, 163, 0.795)
+    box-shadow: 0 5px #666
+    transform: translateY(4px)
+
+
+button#all
+    padding: 15px 25px
+    font-size: 24px
+    text-align: center
+    cursor: pointer
+    outline: none
+    color: black
+    background-color: rgba(192, 165, 191, 0.795)
+    border: none
+    box-shadow: 0 9px rgba(133, 113, 132, 0.795)
+
+button#all:hover
+    background-color: rgba(165, 116, 163, 0.795)
+
+button#all:active
+    background-color: rgba(165, 92, 163, 0.795)
+    box-shadow: 0 5px #666
+    transform: translateY(4px)
+
+input
+    margin-top: 10px
+    width: 300px
+    height: 50px
+    font-size: 24px
+    transition: 0.5s
+    background-color: rgba(255, 255, 255, 0.5)
+   
+input:focus
+    border: 3px solid
+
+table, th , td
+    border: solid 2px
+    text-align: center
+    box-sizing: content-box
+    background-color: rgba(255, 255, 255, 0.5)
+    font-family: 'Cinzel', serif
+
+table
+    margin-top: 20px
+    margin-left: auto
+    margin-right: auto 
+    animation: fadeIn 2s
+
+@keyframes fadeIn
+    0%
+        opacity: 0
+    100%
+        opacity: 1
+
+    
